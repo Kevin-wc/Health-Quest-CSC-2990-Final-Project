@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Final Project</string>
+    <string name="WelcomeMessage">Welcome User!</string>
+    <string name="loginMessage">Login</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
 </resources>
+
+
