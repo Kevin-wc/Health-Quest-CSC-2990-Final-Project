@@ -29,15 +29,19 @@ public class HomeActivity extends AppCompatActivity {
         navView = findViewById(R.id.bottomNav);
         Fragment homeNavFragment = new HomeNavFragment();
         Fragment profileNavFragment = new ProfileNavFragment();
+        Fragment leaderboardFragment = new LeaderboardFragment();
+
 
         setCurrentFragment(homeNavFragment);
 
         navView.setOnItemSelectedListener(item -> {
+            int id = item.getItemId(); //makes life easier
 
-            if(item.getItemId() == R.id.home) {
+            if (id == R.id.home) {
                 setCurrentFragment(homeNavFragment);
-            }
-            else if(item.getItemId() == R.id.profile) {
+            } else if (id == R.id.leaderboard) {
+                setCurrentFragment(leaderboardFragment);
+            } else if (id == R.id.profile) {
                 setCurrentFragment(profileNavFragment);
             }
             return true;
