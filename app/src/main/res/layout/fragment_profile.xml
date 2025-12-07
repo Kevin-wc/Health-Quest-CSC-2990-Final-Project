@@ -29,7 +29,8 @@
             android:gravity="center"
             android:paddingTop="8dp"
             android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
 
         <!-- Real Name -->
         <TextView
@@ -38,7 +39,8 @@
             android:textSize="16sp"
             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"/>
 
         <!-- Stats Row -->
         <LinearLayout
@@ -60,13 +62,15 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"/>
 
                 <TextView
                     android:id="@+id/follow_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Follow" />
+                    android:text="Follow"
+                    android:textColor="@android:color/white"/>
             </LinearLayout>
 
             <LinearLayout
@@ -81,13 +85,15 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"/>
 
                 <TextView
                     android:id="@+id/following_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Following" />
+                    android:text="Following"
+                    android:textColor="@android:color/white"/>
             </LinearLayout>
 
             <LinearLayout
@@ -102,13 +108,15 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"/>
 
                 <TextView
                     android:id="@+id/friend_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Friends" />
+                    android:text="Friends"
+                    android:textColor="@android:color/white"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -119,14 +127,16 @@
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"/>
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"/>
 
         <TextView
             android:id="@+id/rank_weekly"
             android:text="#79 Weekly Rank"
             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"/>
 
         <!-- Progress bar -->
         <ProgressBar
@@ -137,7 +147,8 @@
             android:progress="35"
             android:progressTint="@color/defaultC"
             android:indeterminate="false"
-            android:paddingTop="16dp"/>
+            android:paddingTop="16dp"
+            />
 
         <!-- Edit Profile Button -->
         <Button
@@ -156,7 +167,8 @@
             android:layout_height="wrap_content"
             android:divider="@color/defaultC"
             android:dividerHeight="1dp"
-            android:layout_marginTop="24dp" />
+            android:layout_marginTop="24dp"
+            />
 
     </LinearLayout>
 </ScrollView>
