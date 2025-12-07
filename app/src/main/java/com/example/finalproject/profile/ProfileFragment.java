@@ -79,10 +79,10 @@ public class ProfileFragment extends Fragment {
         // For the purpose of this class, only these will added. (Subject to change).
         String[] items = {"Personal", "Notifications", "Friends"};
         // Corresponding icons that haven't been added yet.
-        //int[] icons = {R.drawable.ic_user, R.drawable.ic_bell, R.drawable.ic_friends};
+        int[] icons = {R.drawable.ic_user, R.drawable.ic_notifications, R.drawable.ic_friends};
 
-       // SettingsAdapter adapter = new SettingsAdapter(requireContext(), items, icons);
-       // settingsList.setAdapter(adapter);
+        SettingsAdapter adapter = new SettingsAdapter(requireContext(), items, icons);
+        settingsList.setAdapter(adapter);
 
         settingsList.setOnItemClickListener((parent, view, position, id) -> {
             if (position == 0) startActivity(new Intent(getActivity(), PersonalActivity.class));

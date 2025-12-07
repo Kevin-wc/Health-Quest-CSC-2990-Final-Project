@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject" >
         <activity
+            android:name=".profile.EditProfileActivity" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false"
             android:theme="@style/Theme.FinalProject" />

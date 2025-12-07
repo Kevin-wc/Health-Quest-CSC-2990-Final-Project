@@ -18,7 +18,9 @@
         android:layout_height="wrap_content"/>
 
     <ImageView
-        android:src="@string/profile_username"
+
+        android:id="@+id/settings_arrow"
         android:layout_width="24dp"
-        android:layout_height="24dp"/>
+        android:layout_height="24dp"
+        android:src="@drawable/ic_arrow" />
 </LinearLayout>
