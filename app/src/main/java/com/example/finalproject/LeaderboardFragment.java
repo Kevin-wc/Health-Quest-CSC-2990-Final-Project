@@ -48,7 +48,6 @@ public class LeaderboardFragment extends Fragment {
         listView.setAdapter(adapter);
 
         loadLeaderboard();
-
         return v;
     }
 
