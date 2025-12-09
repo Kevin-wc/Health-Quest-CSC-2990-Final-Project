@@ -48,10 +48,11 @@
 
         <Button
             android:id="@+id/saveProfileB"
-            android.layout_width="match_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/edit_profile_save_changes"
-            android:layout_marginTop="30dp" />
+            android:layout_marginTop="30dp"
+            />
 
     </LinearLayout>
 </ScrollView>
