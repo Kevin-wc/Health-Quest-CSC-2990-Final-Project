@@ -60,6 +60,44 @@
             android:textColor="@android:color/white"
             android:layout_marginTop="4dp" />
 
+
+        <LinearLayout
+            android:id="@+id/cardQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:background="#1F0A3C"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quote of the Day"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/quoteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The best way to predict the future is to create it."
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/authorTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Abraham Lincoln"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:gravity="end"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
         <LinearLayout
             android:id="@+id/cardExploringOptions"
             android:layout_width="match_parent"
